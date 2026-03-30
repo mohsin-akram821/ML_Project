@@ -18,18 +18,3 @@ def get_requirements(file_path:str)->List[str]:
             requirements.remove(HYPEN_E_DOT)
 
     return requirements
-
-
-
-
-
-setup(
-name='ML_Project',
-version='0.0.1',
-author='MOHSIN AKRAM',
-author_email='mohsin.akram821@gmail.com',
-packages=find_packages(),
-maintainer='MOHSIN AKRAM',
-maintainer_email='mohsin.akram821@gmail.com',
-install_requires=get_requirements('requirements.txt')
-)
